@@ -37,7 +37,7 @@ favourite_books = (
 for book in favourite_books:
     print(book)
     
-# 3 Write a program that uses a dictionary to store information about a person, such as their name, age, and favorite color.
+# 3. Write a program that uses a dictionary to store information about a person, such as their name, age, and favorite color.
 # Ask the user for input and store the information in the dictionary. Then, print the dictionary to the console.
 
 Person = {}
@@ -50,7 +50,7 @@ print("\nPersonal Information: ")
 print(Person)
  
 
-# 4 Write a program that accepts user input to create two sets of integers. 
+# 4. Write a program that accepts user input to create two sets of integers. 
 #Then, create a new set that contains only the elements that are common to both sets.
     
 def get_user_input(prompt):
@@ -63,7 +63,7 @@ common_values = set1.intersection(set2)
 print(f"New set with common elements in both sets: {common_values}")
     
 
-# 5Create a program that stores a list of words. 
+# 5. Create a program that stores a list of words. 
 #Then, use list comprehension to create a new list that contains only the words that have an odd number of characters.
 
 words = ["apple", "banana", "cherry", "date", "fig", "grape", "kiwi"]
